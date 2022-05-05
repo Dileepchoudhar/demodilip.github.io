@@ -85,7 +85,7 @@ define( 'WP_DEBUG_LOG', true );
 /* Add any custom values between this line and the "stop editing" line. */
 
 // Disable display of errors and warnings
-define( 'WP_DEBUG_DISPLAY', false );
+define( 'WP_DEBUG_DISPLAY', true );
 @ini_set( 'display_errors', 0 );
 
 // Use dev versions of core JS and CSS files (only needed if you are modifying these core files)
